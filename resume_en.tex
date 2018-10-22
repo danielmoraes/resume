@@ -1,0 +1,370 @@
+%%
+%% Daniel Moraes | Resume
+%%
+
+\documentstyle[hyperref, margin, line]{resume}
+
+\usepackage{enumitem}
+\setlength{\leftmargini}{15pt}
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\hypersetup{backref,pdfpagemode=Full,colorlinks=true,backref}
+
+\addtolength{\oddsidemargin}{-0.45in}
+\addtolength{\voffset}{-0.60in}
+\addtolength{\textwidth}{1.00in} \addtolength{\textheight}{1.95in}
+
+\renewcommand{\namefont}{\LARGE\emph}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+%%
+%% the following code defines some macros for terms which have raised font
+%% (ie 4\fourth would result 4th with the 'th' raised (superscripted)
+%%
+
+\def\Cplusplus{{\rm C\raise.5ex\hbox{\small ++}}}
+\def\CSharp{{\rm C\raise.5ex\hbox{\small \#}}}
+% 'st' 'nd' 'rd' 'th' superscripts for numbers
+\def\first{{\raise.5ex\hbox{\small st}}}
+\def\second{{\raise.5ex\hbox{\small nd}}}
+\def\third{{\raise.5ex\hbox{\small rd}}}
+\def\fourth{{\raise.5ex\hbox{\small th}}}
+
+%%
+%% starting the actual document
+%%
+
+\begin{document}
+
+\name{Daniel Bastos Moraes}
+\address{+55 19 98111{-}8214 $\cdot$ daniel.b.moraes@gmail.com $\cdot$ https://dmoraes.org}
+
+\begin{resume}
+
+\vspace{-0.2in}
+
+%%
+%% data scientist highlights
+%%
+
+\section{\textsc{Highlights}}
+
+Over 10 years of work experience and strong computer science background.\vspace{0.4em}\\
+Experienced with algorithms, machine learning, and computer vision techniques.\vspace{0.4em}\\
+Solid skills in \Cplusplus, Python, SQL, and full stack web dev.\vspace{0.4em}\\
+Self-directed learner and clear communication/documentation skills.
+
+%%
+%% software engineer hightlights
+%%
+
+% \section{\textsc{Highlights}}
+
+% Over 10 years of work experience and strong computer science background.\vspace{0.4em}\\
+% Solid skills in JavaScript, Python, \Cplusplus, and SQL\@.
+% Solid skills in full stack web dev, including modern tools like React.js, Node.js, and REST APIs.\vspace{0.4em}\\
+% Self-directed learner and clear communication/documentation skills.\vspace{0.4em}\\
+% Can effectively communicate in English.
+
+%%
+%% education
+%%
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \title{r}\\
+\end{formatb}
+
+\section{\textsc{Education}}
+
+\employer{\textbf{University of Campinas (Unicamp)} {--} {\small Campinas, Brazil}}
+\dates{{\small 08/2011 {--} 02/2014}}
+\title{\emph{Master of Computer Science}}
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item Title: Low False Positive Learning with Support Vector Machines.
+\item Advisor: Dr.\ Anderson Rocha.
+\item Member of RECOD (Reasoning for Complex Data) lab.
+\end{itemize}
+\end{position}
+
+\employer{\textbf{Tiradentes University (Unit)} {--} {\small Aracaju, Brazil}}
+\dates{{\small 08/2007 {--} 12/2011}}
+\title{\emph{Bachelor of Computer Science}}
+\begin{position}
+\begin{itemize}\small
+\vspace{1mm}
+\item Title: Automatic Relevance Ranking of Offers Based on their Features.
+\item Advisor: M.Sc Fernando Henrique Bezerra Cardoso.
+\item Highest MGP (GPA equivalent) in class.
+\item Algorithms and Data Structures I TA\@.
+\end{itemize}
+\end{position}
+
+%%
+%% work experience
+%%
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \title{r}\\
+\end{formatb}
+
+\section{\textsc{Selected Work\\Experience}}
+
+\employer{\textbf{HOOBOX Robotics} {--} {\small Campinas, Brazil}}
+\dates{{\small Since 03/2018}}
+\title{\emph{Software Engineer and Data Scientist}}
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item Coordinate a team of two developers and two researchers.
+\item Developed high precision algorithms for detecting facial expressions, on a team of three researchers.
+\item Designed and implemented a new application for Wheelie with modern technologies.
+
+\vspace{1mm}
+{\small \emph{Tech}: TensorFlow, AWS, Scikit Learn, Docker, Python, Mongo, React, Node, CI, Shell, REST APIs.}
+\end{itemize}
+\end{position}
+
+\employer{\textbf{UpWork} {--} {\small Remote Job}}
+\dates{{\small Since 05/2017}}
+\title{\emph{Data Scientist and Software Engineer}}
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item Designed and implemented efficient algorithms for computing adaptive and random pairs.
+\item Developed and launched a content management system for artworks. Available at https://myarthaus.com.
+\item Implemented the major part of the frontend of a music streaming service. Available at https://stereo.co.
+
+\vspace{1mm}
+{\small \emph{Tech}: \Cplusplus, PostgreSQL, React, Node, Docker, CI, Shell, REST APIs, Testing.}
+\end{itemize}
+\end{position}
+
+\employer{\textbf{Samsung Research Institute Brazil (via Unicamp)} {--} {\small Campinas, Brazil}}
+\dates{{\small 03/2014 {--} 03/2016}}
+\title{\emph{Data Scientist, Lead Software Engineer, Consultant}}
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item Developed a method that detects porn audio with an accuracy of over 89.5\%.
+\item Optimized and ported our learning pipeline to a mobile device, with
+an speed gain of 63.5\%.
+\item Developed and delivered real time porn and violence detection tools for Android and Linux.
+\item One patent and second place at the VSD generalization task of MediaEval 2014 competition.
+\item Analyzed and reported implementation issues on the SMA and VLFeat libraries.
+
+\vspace{1mm}
+{\small \emph{Tech}: \Cplusplus, Python, Android, Shell Script, OpenCV, LibSVM,
+FFmpeg, openSMILE, VLFeat\@.}
+\end{itemize}
+\end{position}
+
+\employer{\textbf{Regional Court of Sergipe (via CTIS)} {--} {\small Aracaju, Brazil}}
+\dates{\small{12/2010 {--} 07/2011}}
+\title{\emph{Software Engineer}}
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item Developed a distributed Plone module that synchronizes every day hundreds
+  of files in real-time.
+\item Developed a module to automatically import thousands of documents to a Plone-based website.
+
+\vspace{1mm}
+{\small \emph{Tech}: Python, Plone\@.}
+\end{itemize}
+\end{position}
+
+\employer{\textbf{Lumentech} {--} {\small Aracaju, Brazil}}
+\dates{{\small 03/2009 {--} 04/2010}}
+\title{\emph{Software Engineer, Intern}}
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item Developed important features to a MMORPG web game, including groups,
+  email, and pathfinding.
+\item Developed the Roboto game, on a team of 1 engineer and 2 designers in
+  3 months.
+\item Developed the Axe Penny Paintball game, on a team of 3 engineers and
+  1 designer in 1 month.
+
+\vspace{1mm}
+{\small \emph{Tech}: JavaScript, ActionScript, HTML/CSS\@.}
+\end{itemize}
+\end{position}
+
+\employer{\textbf{Alfama Web} {--} {\small Aracaju, Brazil}}
+\dates{{\small 02/2008 {--} 02/2009}}
+\title{\emph{Software Engineer, Intern}}
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item Implemented several features to an student information system.
+\item Developed and delivered a system to register employee performance and
+  several websites.
+
+\vspace{1mm}
+{\small \emph{Tech}: PHP, JavaScript, SQL (MySQL), HTML/CSS\@.}
+\end{itemize}
+\end{position}
+
+%%
+%% projects
+%%
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+\end{formatb}
+
+\section{\textsc{Selected\\Projects}}
+
+\employer{\textbf{Algorithms Training}}
+\dates{{\small 06/2016 {--} 04/2017}}
+
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item Solved over 300 problems from Introduction to Algorithms, Third Edition (CLRS).
+\item Solved and coded in \Cplusplus\ over 80 coding problems from different sources.
+\item Theoretical solutions available online at http://clrs.dmoraes.org.
+\item Coded solutions available online at https://github.com/danielmoraes/epi.
+
+\vspace{1mm}
+{\small \emph{Tech}: \Cplusplus, \LaTeX.}
+\end{itemize}
+\end{position}
+
+\employer{\textbf{Crowd Detection with BinBoost Descriptors}}
+\dates{{\small 03/2014 {--} 06/2014}}
+
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item Method to detect crowds on images {--} achieved an accuracy of over 94\%.
+\item Developed on a team of two researchers.
+\item Paper available online at https://dmoraes.org/projects.
+\item Research conducted under supervision of Dr.\ Siome Goldenstein and
+Dra.\ Sandra Avila.
+
+\vspace{1mm}
+{\small \emph{Tech}: Python, Shell Script, OpenCV, LibSVM, BinBoost.}
+\end{itemize}
+\end{position}
+
+\employer{\textbf{Low False Positive Learning with Support Vector Machines}}
+\dates{{\small 12/2012 {--} 02/2014}}
+
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item Novel 2-level learning method for low false positive classification.
+\item Method’s effectiveness showed trough comparisons to other solutions in 33
+  datasets.
+\item Published on the 38th vol of the Journal of Visual Communication and Image Representation (JVCI).
+\item Research conducted under supervision of Dr.\ Anderson Rocha and Dr.\
+  Jacques Wainer.
+
+\vspace{1mm}
+{\small \emph{Tech}: Python, LibSVM.}
+\end{itemize}
+\end{position}
+
+\employer{\textbf{Feature-Based Product Ranking}}
+\dates{{\small 08/2012 {--} 12/2012}}
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item A product ranking algorithm based on SVMs that takes into account the
+  cost-benefit ratio.
+\item Agreement of 64\% according to a test conducted with 79 users.
+\item Research conducted under supervision of Dr.\ Anderson Rocha.
+
+\vspace{1mm}
+{\small \emph{Tech}: Python, LibSVM, R, JavaScript, HTML/CSS\@.}
+\end{itemize}
+\end{position}
+
+\employer{\textbf{Spider for Google Shopping and Buscape}}
+\dates{{\small 05/2012 {--} 08/2012}}
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+  \item An HTML spider that collects products data from Google Shopping and
+  Buscape.
+\item Collected and refined data from 495,000 offers of laptops from Google
+  Shopping during 7 months.
+
+\vspace{1mm}
+{\small \emph{Tech}: Python, LibSVM, JavaScript, SQL (MySQL), HTML/CSS\@.}
+\end{itemize}
+\end{position}
+
+%%
+%% organizations
+%%
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \title{r}\\
+\end{formatb}
+
+\section{\textsc{Organizations}}
+
+\employer{\textbf{IEEE Image Forgery Detection Challenge}}
+\dates{{\small Since 05/2013}}
+\title{\emph{Technical Lead}}
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item Built and maintained the submission system and the website, on a team of
+  2 engineers.
+\item Available online at http://ifc.recod.ic.unicamp.br.
+
+\vspace{1mm}
+{\small \emph{Tech}: Python, Shell Script, SQL (PostgreSQL), JavaScript,
+HTML/CSS\@.}
+\end{itemize}
+\end{position}
+
+%%
+%% teaching experience
+%%
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \title{r}\\
+\end{formatb}
+
+\section{\textsc{Teaching Experience}}
+
+\employer{\textbf{Unraveling JavaScript}}
+\dates{{\small 11/2010}}
+\title{\emph{Short Course}}
+\begin{position}
+\vspace{1mm}
+\begin{itemize}\small
+\item JavaScript course presented to computer science students at Tiradentes
+  University.
+\end{itemize}
+\end{position}
+
+%%
+%% skills
+%%
+
+\section{\textsc{Technical Skills}}
+
+\emph{Programming}: \Cplusplus, Python, Shell Script, SQL, JavaScript (ES6),
+Java/Android.\vspace{0.4em}\\
+\emph{Frameworks/Tools}: GNU/Linux, AWS, R, OpenCV, Node.js, React.js/Redux,
+Git, \LaTeX.\vspace{0.4em}\\
+\emph{DevOps}: Docker, RabbitMQ, CI, Issue Tracker.
+
+\end{resume}
+\end{document}
